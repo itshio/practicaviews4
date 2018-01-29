@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.practicaviews4.MainActivity">
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickfacebook"
+        app:srcCompat="@mipmap/ic_facebook" />
+
+    <TextView
+        android:id="@+id/textfacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickinstagram"
+        app:srcCompat="@mipmap/ic_instagram" />
+
+    <TextView
+        android:id="@+id/textoinstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clicktwitter"
+        app:srcCompat="@mipmap/ic_twitter" />
+
+    <TextView
+        android:id="@+id/textotwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpiar"
+        app:srcCompat="@android:drawable/ic_delete" />
+</LinearLayout>
